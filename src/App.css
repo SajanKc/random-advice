@@ -50,3 +50,9 @@ body {
 	color: whitesmoke;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+	.heading {
+		font-size: 3rem;
+	}
+}
