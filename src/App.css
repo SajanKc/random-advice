@@ -20,6 +20,7 @@ body {
 }
 
 .card {
+	position: relative;
 	background-color: rgba(255, 255, 255, 0.6);
 	width: 80%;
 	height: auto;
@@ -32,7 +33,7 @@ body {
 }
 
 .heading {
-	margin-top: 0 !important;
+	margin-top: 15px !important;
 	margin-bottom: 15px !important;
 	font-size: 4rem;
 }
@@ -46,6 +47,25 @@ body {
 }
 
 .btn_advice:hover {
+	background-color: gray;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+.btn_copy {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	padding: 5px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn_copy:hover {
 	background-color: gray;
 	color: whitesmoke;
 	cursor: pointer;
